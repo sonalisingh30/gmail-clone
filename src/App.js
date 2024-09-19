@@ -8,6 +8,7 @@ import Body from "./Components/Body";
 import SendMail from "./Components/SendMail";
 import Login from "./Components/Login";
 import { useSelector } from "react-redux";
+// import { div } from "framer-motion/client";
 
 const router = createBrowserRouter([
   {
@@ -28,18 +29,20 @@ const router = createBrowserRouter([
 function App() {
   const { user } = useSelector((store) => store.appSlice);
   return (
-    <div className="bg-[#F6F8FC] h-screen w-screen overflow-hidden">
-      {!user ? (
-        <Login />
-      ) : (
-        <>
-          <Navbar />
-          <RouterProvider router={router} />
-          <div className="absolute w-[30%] bottom-0 right-20 z-10">
-            <SendMail />
-          </div>
-        </>
-      )}
+    <div>
+      <div className="bg-[#F6F8FC] h-screen w-screen overflow-hidden">
+        {!user ? (
+          <Login />
+        ) : (
+          <>
+            <Navbar />
+            <RouterProvider router={router} />
+            <div className="absolute w-[30%] bottom-0 right-20 z-10">
+              <SendMail />
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }
