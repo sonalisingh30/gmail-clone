@@ -71,4 +71,22 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
+## Screenshots
+
+### Home Page
+![Home Page](public/Screenshorts/Home_page.png)
+
+### Compose Page
+![Compose Page](public/Screenshorts/Compose_page.png)
+
+### Google Authentication Page
+![Google Authentication Page](public/Screenshorts/googleAuthentication_page.png)
+
+### Login Page
+![Login Page](public/Screenshorts/login-page.png)
+
+### Logout Page
+![Logout Page](public/Screenshorts/logout.png)
+
+
 
