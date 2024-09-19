@@ -3,7 +3,9 @@
 A fully functional Gmail clone built using modern web development tools like React, Redux, Firebase, and Tailwind CSS. The application mimics the core features of Gmail, including authentication, routing, and responsive design.
 
 ## Demo
-    [View the application here](https://sonali-gmail-clone.netlify.app)
+
+[View the application here](https://sonali-gmail-clone.netlify.app)
+
 
 
 ## Features
